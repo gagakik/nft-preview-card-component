@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    background-color: #19A1AE;
+    height: 100vh;
+    background-image: url(./images/bg-pattern-top.svg), 
+    url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 40vw bottom 50vh, left 35vw top 45vh;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 350px;
+    max-height: 374px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 173px;
+    background-color: #fff;
+}
+
+.top_img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back {
+    max-height: 140px;
+}
+
+.victor {
+    position: fixed;
+    border-radius: 50%;
+    margin-top: 92px;
+    border: 5px solid #FFFFFF;
+    display: block;
+
+}
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    display: flex;
+    gap: 8.5px;
+}
+
+.name h2 {
+    color: 2E3349;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.name p {
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #6B7082;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.location p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6B7082;
+}
+
+hr {
+    margin-top: 28px;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    margin: 27px 0px 24px 0px;
+}
+
+.likes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.likes h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+}
+
+.likes p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper {
+        max-width: 326px;
+
+    }
+}
